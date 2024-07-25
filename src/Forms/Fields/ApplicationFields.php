@@ -1,11 +1,11 @@
 <?php
 
-namespace Shipu\WebInstaller\Forms\Fields;
+namespace Jayadana\WebInstaller\Forms\Fields;
 
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Wizard\Step;
 use Illuminate\Support\Facades\Hash;
-use Shipu\WebInstaller\Concerns\StepContract;
+use Jayadana\WebInstaller\Concerns\StepContract;
 
 class ApplicationFields implements StepContract
 {

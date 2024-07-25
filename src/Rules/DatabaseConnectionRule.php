@@ -1,11 +1,11 @@
 <?php
 
-namespace Shipu\WebInstaller\Rules;
+namespace Jayadana\WebInstaller\Rules;
 
 use Closure;
 use Illuminate\Contracts\Validation\DataAwareRule;
 use Illuminate\Contracts\Validation\ValidationRule;
-use Shipu\WebInstaller\Utilities\DatabaseConnection;
+use Jayadana\WebInstaller\Utilities\DatabaseConnection;
 
 class DatabaseConnectionRule implements ValidationRule, DataAwareRule
 {

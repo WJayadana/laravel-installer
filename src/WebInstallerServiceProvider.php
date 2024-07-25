@@ -1,10 +1,10 @@
 <?php
 
-namespace Shipu\WebInstaller;
+namespace Jayadana\WebInstaller;
 
 use Livewire\Livewire;
-use Shipu\WebInstaller\Livewire\Installer;
-use Shipu\WebInstaller\Middleware\RedirectIfNotInstalled;
+use Jayadana\WebInstaller\Livewire\Installer;
+use Jayadana\WebInstaller\Middleware\RedirectIfNotInstalled;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

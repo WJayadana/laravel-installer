@@ -1,11 +1,11 @@
 <?php
 
-namespace Shipu\WebInstaller\Forms\Fields;
+namespace Jayadana\WebInstaller\Forms\Fields;
 
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Wizard\Step;
-use Shipu\WebInstaller\Concerns\StepContract;
-use Shipu\WebInstaller\Utilities\EnvironmentHelper;
+use Jayadana\WebInstaller\Concerns\StepContract;
+use Jayadana\WebInstaller\Utilities\EnvironmentHelper;
 
 class EnvironmentFields implements StepContract
 {

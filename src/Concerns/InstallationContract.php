@@ -1,6 +1,6 @@
 <?php
 
-namespace Shipu\WebInstaller\Concerns;
+namespace Jayadana\WebInstaller\Concerns;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Http\RedirectResponse;

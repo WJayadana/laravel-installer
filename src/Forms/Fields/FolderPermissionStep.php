@@ -1,11 +1,11 @@
 <?php
 
-namespace Shipu\WebInstaller\Forms\Fields;
+namespace Jayadana\WebInstaller\Forms\Fields;
 
 use Filament\Forms\Components\Wizard\Step;
-use Shipu\WebInstaller\Concerns\StepContract;
-use Shipu\WebInstaller\Forms\Components\ViewBorder;
-use Shipu\WebInstaller\Utilities\PermissionsChecker;
+use Jayadana\WebInstaller\Concerns\StepContract;
+use Jayadana\WebInstaller\Forms\Components\ViewBorder;
+use Jayadana\WebInstaller\Utilities\PermissionsChecker;
 
 class FolderPermissionStep implements StepContract
 {

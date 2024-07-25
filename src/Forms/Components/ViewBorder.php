@@ -1,6 +1,6 @@
 <?php
 
-namespace Shipu\WebInstaller\Forms\Components;
+namespace Jayadana\WebInstaller\Forms\Components;
 
 use Filament\Forms\Components\Field;
 

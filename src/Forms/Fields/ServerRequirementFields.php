@@ -1,10 +1,10 @@
 <?php
 
-namespace Shipu\WebInstaller\Forms\Fields;
+namespace Jayadana\WebInstaller\Forms\Fields;
 
 use Filament\Forms\Components\Wizard\Step;
-use Shipu\WebInstaller\Forms\Components\ViewBorder;
-use Shipu\WebInstaller\Utilities\RequirementsChecker;
+use Jayadana\WebInstaller\Forms\Components\ViewBorder;
+use Jayadana\WebInstaller\Utilities\RequirementsChecker;
 
 class ServerRequirementFields
 {

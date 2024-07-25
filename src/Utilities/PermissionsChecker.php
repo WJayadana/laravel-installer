@@ -1,6 +1,6 @@
 <?php
 
-namespace Shipu\WebInstaller\Utilities;
+namespace Jayadana\WebInstaller\Utilities;
 
 class PermissionsChecker
 {

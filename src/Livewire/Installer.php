@@ -1,6 +1,6 @@
 <?php
 
-namespace Shipu\WebInstaller\Livewire;
+namespace Jayadana\WebInstaller\Livewire;
 
 use Filament\Forms\Components\Wizard;
 use Filament\Forms\Concerns\InteractsWithForms;

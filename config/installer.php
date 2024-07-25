@@ -1,15 +1,15 @@
 <?php
 
-use Shipu\WebInstaller\Forms\Fields\ApplicationFields;
-use Shipu\WebInstaller\Forms\Fields\EnvironmentFields;
-use Shipu\WebInstaller\Forms\Fields\FolderPermissionStep;
-use Shipu\WebInstaller\Forms\Fields\ServerRequirementFields;
-use Shipu\WebInstaller\Manager\InstallationManager;
-use Shipu\WebInstaller\Rules\DatabaseConnectionRule;
+use Jayadana\WebInstaller\Forms\Fields\ApplicationFields;
+use Jayadana\WebInstaller\Forms\Fields\EnvironmentFields;
+use Jayadana\WebInstaller\Forms\Fields\FolderPermissionStep;
+use Jayadana\WebInstaller\Forms\Fields\ServerRequirementFields;
+use Jayadana\WebInstaller\Manager\InstallationManager;
+use Jayadana\WebInstaller\Rules\DatabaseConnectionRule;
 
 return [
 
-    'name' => 'Laravel Web Installer',
+    'name' => 'Jayadana Web Installer',
 
     'user_model' => \App\Models\User::class,
 

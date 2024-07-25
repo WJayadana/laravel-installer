@@ -1,6 +1,6 @@
 <?php
 
-namespace Shipu\WebInstaller\Middleware;
+namespace Jayadana\WebInstaller\Middleware;
 
 use Closure;
 use Illuminate\Http\RedirectResponse;

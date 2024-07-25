@@ -1,6 +1,6 @@
 <?php
 
-namespace Shipu\WebInstaller\Manager;
+namespace Jayadana\WebInstaller\Manager;
 
 use Filament\Facades\Filament;
 use Illuminate\Foundation\Application;
@@ -8,7 +8,7 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Routing\Redirector;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Log;
-use Shipu\WebInstaller\Concerns\InstallationContract;
+use Jayadana\WebInstaller\Concerns\InstallationContract;
 
 class InstallationManager implements InstallationContract
 {
