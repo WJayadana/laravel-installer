@@ -1,0 +1,36 @@
+{
+    "name": "wjayadana/laravel-installer",
+    "description": "Laravel Web Installer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wahyudi Jayadana",
+            "email": "wjayadana@gmail.com"
+        }
+    ],
+    "autoload": {
+            "psr-4": {
+                "Jayadana\\WebInstaller\\": "src/"
+            }
+        },
+    "require": {
+        "spatie/laravel-package-tools": "^1.9",
+        "livewire/livewire": "^3.0@beta",
+        "filament/forms": "^3.0-stable",
+        "filament/support": "^3.0-stable",
+        "laravel/helpers": "^1.6"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jayadana\\WebInstaller\\WebInstallerServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    }
+}
